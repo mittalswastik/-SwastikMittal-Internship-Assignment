@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-//import Datamap from 'datamaps/dist/datamaps.world.min.js';
 import '../Css/Page1.css'
 import d3 from 'd3';
 import RaleighJson from '../Data/raleigh3.geojson';
@@ -34,15 +33,15 @@ class Page1 extends Component {
 
         let paletteScale = d3.scale.linear()
                                     .domain([minValue, maxValue])
-                                    .range(["#77DD77","#414833"]); // calculating a color range according to data values
+                                    .range(["#77DD77","#414833"]);
 
         let tooltip = d3.select("#map")
                         .append("div")
-                        .attr("class", "tooltip hidden");    
+                        .attr("class", "tooltip hidden");
 
         this.state.data.forEach(function (item) {
             let iso = item[0], value = item[1];
-            dataset[iso] = paletteScale(value); // assigning a color to a zip code
+            dataset[iso] = paletteScale(value);
         });
 
         let width = 800, height = 800;
@@ -71,6 +70,10 @@ class Page1 extends Component {
             .on('mouseout', hideTooltip);
         }.bind(this));    // to access class
 
+        /*
+          Show tool tip : (Refered below code from : https://data-map-d3.readthedocs.io/en/latest/)
+        */
+
         function showTooltip(f) {
             // Get the ID of the feature.
             let id = f.properties.GEOID10;
@@ -82,20 +85,15 @@ class Page1 extends Component {
               function(f) { return parseInt(f); }
             );
 
-            // Calculate the absolute left and top offsets of the tooltip. If the
-            // mouse is close to the right border of the map, show the tooltip on
-            // the left.
             var left = Math.min(width - 4 * id.length, mouse[0] + 5);
             var top = mouse[1] + 25;
 
-            // Show the tooltip (unhide it) and set the name of the data entry.
-            // Set the position as calculated before.
             tooltip.classed('hidden', false)
               .attr("style", "left:" + left + "px; top:" + top + "px")
               .html(id);
         }
 
-        /**
+        /*
          * Hide the tooltip.
          */
         function hideTooltip() {

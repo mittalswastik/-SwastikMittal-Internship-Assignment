@@ -14,7 +14,7 @@ class Page2 extends Component {
 		
 		if(this.props.location.state != null){
 			this.setState({
-				id: this.props.location.state.val 
+				id: this.props.location.state.val
 			})
 		}
 	}
@@ -50,7 +50,7 @@ class Page2 extends Component {
 								{datafill}
 							</tbody>
 						</table>
-					</div>	
+					</div>
 				</div>
 			);
 		}
