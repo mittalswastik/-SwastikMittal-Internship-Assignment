@@ -19,6 +19,6 @@ The page will reload if you make edits.<br>
 
 ### `Images`
 
-[Page1](./images/Page1.png)
-[Page2](./images/Page2.png)
+[Page1](./images/Page1.png)<br>
+[Page2](./images/Page2.png)<br>
 [Hover Tool Tip](./images/onHover.png)
