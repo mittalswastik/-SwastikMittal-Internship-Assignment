@@ -21,4 +21,4 @@ The page will reload if you make edits.<br>
 
 [Page1](./images/Page1.png)<br>
 [Page2](./images/Page2.png)<br>
-[Hover Tool Tip](./images/onHover.png)
+[Hover Tool Tip](./images/OnHover.png)
