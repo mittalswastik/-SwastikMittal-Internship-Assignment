@@ -15,3 +15,8 @@ The page will reload if you make edits.<br>
 
 [Build scripts and idea](https://dev.to/webdevraj/how-to-create-a-choropleth-map-or-geographic-heatmap-in-react-23bm)<br>
 [Tutotial for data mapping using d3](https://data-map-d3.readthedocs.io/en/latest/)
+
+
+### `Images`
+
+[!picture](./images/Page1.png)
