@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/-SwastikMittal-Internship-Assignment/static/js/runtime~main.c079201f.js"
   },
   {
-    "revision": "35c18f2b3f4593f19e8e",
-    "url": "/-SwastikMittal-Internship-Assignment/static/js/main.35c18f2b.chunk.js"
+    "revision": "e502f56701e829178a80",
+    "url": "/-SwastikMittal-Internship-Assignment/static/js/main.e502f567.chunk.js"
   },
   {
     "revision": "608f649be7f3292ad3e3",
     "url": "/-SwastikMittal-Internship-Assignment/static/js/1.608f649b.chunk.js"
   },
   {
-    "revision": "35c18f2b3f4593f19e8e",
-    "url": "/-SwastikMittal-Internship-Assignment/static/css/main.45d015d6.chunk.css"
+    "revision": "e502f56701e829178a80",
+    "url": "/-SwastikMittal-Internship-Assignment/static/css/main.c7831070.chunk.css"
   },
   {
-    "revision": "2e141303d0176b494c6ebdd2ac010582",
+    "revision": "0a748f16620eac7460b5f2466f94c4b7",
     "url": "/-SwastikMittal-Internship-Assignment/index.html"
   }
 ];

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/-SwastikMittal-Internship-Assignment/precache-manifest.147dae2ad9b9572418625c4c84592169.js"
+  "/-SwastikMittal-Internship-Assignment/precache-manifest.b9d0b854d9f1d7e1920a7ca6e064cf77.js"
 );
 
 workbox.clientsClaim();
